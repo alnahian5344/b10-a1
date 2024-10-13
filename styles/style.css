@@ -1,3 +1,38 @@
-h3 {
-    color: blueviolet;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+
+/*-------- Primary Color Section -----------*/
+.btn-primary {
+    background-color: #0D1321;
+}
+
+
+
+
+
+
+/*-------- Header Section -----------*/
+header {
+    background-image: url("../assets/Hero-bg.png");
+}
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 221px 45px 221px;
+}
+
+
+.btn-font{
+    color: white;
 }
