@@ -10,7 +10,7 @@
 
 
 
-/*-------- Primary Color Section -----------*/
+/*------------- Primary Color Section ----------------------*/
 .btn-primary {
     background-color: #0D1321;
 }
@@ -20,7 +20,7 @@
 
 
 
-/*-------- Header Section -----------*/
+/*---------------- Header Section -----------------------*/
 header {
     background-image: url("../assets/Hero-bg.png");
 }
@@ -40,7 +40,7 @@ header {
 
 
 
-/*-------- Main Section -----------*/
+/*---------------- Main Section------------------------*/
 .main-position {
     padding: 20px 152px 50px 148px;
 }
@@ -64,7 +64,7 @@ header {
 }
 
 
-
+/* My Inspire Section */
 .video-container {
     position: relative;
     width: 100%; 
@@ -79,3 +79,71 @@ header {
     width: 100%; 
     height: 100%; 
 }
+
+
+
+/*---------------- Footer Section------------------------*/
+
+/* .footer-section{
+        margin: 150px 150px 150px 150px;
+}
+.footer-back-img{
+    background-image: url('../assets/handshake.jpg');
+    position: absolute;
+    width: 80%; 
+    height: 100%; 
+}
+ */
+
+ .footer-section {
+    margin: 150px 150px 150px 150px;
+    /* position: relative;  */
+}
+
+.footer-back-img {
+    background-image: url('../assets/handshake.jpg');
+    background-position: center; 
+    background-size: cover; 
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 20px; 
+}
+
+.footer-back-img h4,
+.footer-back-img p,
+.footer-back-img input,
+.footer-back-img button {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+.footer-back-img h4{
+    color: white;
+font-weight: bolder;
+}
+
+.footer-back-img p{
+    color: rgb(196, 176, 176);
+/* font-weight: bolder; */
+}
+
+
+.footer-back-img input {
+    padding: 10px; 
+    width: 50%; 
+}
+
+.footer-back-img button {
+    padding: 10px 20px; 
+    cursor: pointer;
+    /* background-color: #007bff;  */
+    color: black;
+    font-weight: bolder;
+    border: none;
+}
+
