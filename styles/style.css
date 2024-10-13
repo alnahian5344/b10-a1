@@ -33,6 +33,32 @@ header {
 }
 
 
-.btn-font{
+.btn-font {
     color: white;
+}
+
+
+
+
+/*-------- Main Section -----------*/
+.main-position {
+    padding: 20px 152px 50px 148px;
+}
+
+.header-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-layer{
+    padding: 87px 87px 87px 87px;
+}
+
+/* Layer 1 */
+.layer-one{
+    display: flex;
+    /* padding: 87px 87px; */
+    justify-content: center;
+    align-items: center;
 }
